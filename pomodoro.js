@@ -34,7 +34,6 @@ function startWork() {
 
 function startBreak() {
   stopTimer();
-  workRemaining = WORK_SECONDS;
   breakRemaining = BREAK_SECONDS;
   render();
   timerId = setInterval(() => {
