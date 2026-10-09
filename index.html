@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ポモドーロタイマー</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; margin-top: 60px; background: #fdf6f0; }
+    .timer { font-size: 64px; margin: 16px 0; }
+    button { font-size: 18px; margin: 6px; padding: 8px 20px; }
+  </style>
+</head>
+<body>
+  <h1>ポモドーロタイマー</h1>
+  <h2>作業</h2>
+  <div class="timer" id="work-display">25:00</div>
+  <button id="start-work">作業を開始</button>
+  <h2>休憩</h2>
+  <div class="timer" id="break-display">05:00</div>
+  <button id="start-break">休憩を開始</button>
+
+  <script src="pomodoro.js"></script>
+</body>
+</html>
